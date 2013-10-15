@@ -181,8 +181,13 @@
     <Compile Include="Migrations\201310130702157_AddDataAnnotationsMig.Designer.cs">
       <DependentUpon>201310130702157_AddDataAnnotationsMig.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201310150556518_AddDirectorMig.cs" />
+    <Compile Include="Migrations\201310150556518_AddDirectorMig.Designer.cs">
+      <DependentUpon>201310150556518_AddDirectorMig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Medium.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -322,6 +327,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201310130702157_AddDataAnnotationsMig.resx">
       <DependentUpon>201310130702157_AddDataAnnotationsMig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201310150556518_AddDirectorMig.resx">
+      <DependentUpon>201310150556518_AddDirectorMig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

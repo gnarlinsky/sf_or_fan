@@ -4,10 +4,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MvcMovie.Models
 {
-    public class Movie
+    public class Movie : Medium
     {
+        public string Director { get; set; }
+        /*
         public int ID { get; set; }
-
+        
         [Required]
         public string Title { get; set; }
 
@@ -32,6 +34,7 @@ namespace MvcMovie.Models
 
         // [DataType(DataType.Url)]
         // nk <-------------------------------------
+         */
     }
 
     public class MovieDBContext : DbContext

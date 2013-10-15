@@ -19,6 +19,7 @@ namespace MvcMovie.Migrations
                 new Movie
                 {
                     Title = "When Harry Met Sally",
+                    Director = "Mr. Hollywood Director",
                     ReleaseDate = DateTime.Parse("1989-1-11"),
                     Genre = "Romantic Comedy",
                     Rating = "G",
@@ -30,6 +31,7 @@ namespace MvcMovie.Migrations
                  new Movie
                  {
                      Title = "Ghostbusters ",
+                     Director = "Mr. Hollywood Director",
                      ReleaseDate = DateTime.Parse("1984-3-13"),
                      Genre = "Comedy",
                      Rating = "G",
@@ -41,6 +43,7 @@ namespace MvcMovie.Migrations
                  new Movie
                  {
                      Title = "Ghostbusters 2",
+                     Director = "Mr. Hollywood Director",
                      ReleaseDate = DateTime.Parse("1986-2-23"),
                      Genre = "Comedy",
                      Rating = "G",
@@ -52,6 +55,7 @@ namespace MvcMovie.Migrations
                new Movie
                {
                    Title = "Rio Bravo",
+                   Director = "Mr. Hollywood Director",
                    ReleaseDate = DateTime.Parse("1959-4-15"),
                    Genre = "Western",
                    Rating = "G",
